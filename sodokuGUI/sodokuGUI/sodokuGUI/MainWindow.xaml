@@ -1,0 +1,21 @@
+﻿<Window x:Class="sodokuGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sodokuGUI"
+        mc:Ignorable="d"
+        Title="Sudoku-ellenőrző" Height="210" Width="540">
+    <Grid>
+        <Button x:Name="+gomb" Content="+" HorizontalAlignment="Left" Margin="185,30,0,0" VerticalAlignment="Top" Width="24"/>
+        <Label x:Name="adat" Content="Új feladvány mérete:" HorizontalAlignment="Left" Margin="25,27,0,0" VerticalAlignment="Top" Width="120" Height="25"/>
+        <Button x:Name="-gomb" Content="-" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" Width="28"/>
+        <TextBox x:Name="text" Margin="214,28,0,0" Text="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="23" Height="22"/>
+        <Label Content="Kezdőállapot:" HorizontalAlignment="Left" Margin="25,71,0,0" VerticalAlignment="Top" Width="98"/>
+        <TextBox x:Name="adat" HorizontalAlignment="Left" Margin="25,102,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="379" Height="23" TextChanged="TextBox_TextChanged_1"/>
+        <Label x:Name="szoveg" HorizontalAlignment="Left" Margin="25,130,0,0" VerticalAlignment="Top" Width="60" Height="27"/>
+        <Button x:Name="Ellenőrzés" HorizontalAlignment="Left" Margin="403,144,0,0" VerticalAlignment="Top" Width="94"/>
+
+
+    </Grid>
+</Window>

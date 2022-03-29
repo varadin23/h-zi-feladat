@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "sodokuGUI/1.0.0": {
+        "runtime": {
+          "sodokuGUI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "sodokuGUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
